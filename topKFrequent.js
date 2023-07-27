@@ -19,6 +19,6 @@ const topKFrequent = (nums, k) => {
       return sortedNums.slice(0, k);
 }
 
-const nums = [1,1,1,2,2,3], k = 1
+const nums = [1,1,1,2,2,3], k = 3
 
 console.log(topKFrequent(nums, k))
