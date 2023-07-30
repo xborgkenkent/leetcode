@@ -14,7 +14,7 @@ const shuffle = (nums) => {
     const result = pairs.flatMap(pair => pair);
   
     return result;
-  };
+};
 
 const nums = [2,5,1,3,4,7]
 console.log(shuffle(nums))
